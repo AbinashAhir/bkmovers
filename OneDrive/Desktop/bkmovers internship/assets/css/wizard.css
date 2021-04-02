@@ -1,0 +1,275 @@
+/*========================================================
+        DARK LAYOUT
+=========================================================*/
+.wizard {
+  width : 100%;
+}
+.wizard .content {
+  margin-left : 0 !important;
+}
+.wizard > .steps {
+  position : relative;
+  display : none;
+  width : 100%;
+}
+.wizard > .steps .current-info {
+  position : absolute;
+  left : -99999px;
+}
+.wizard > .steps > ul {
+  display : table;
+  width : 100%;
+  table-layout : fixed;
+  margin : 0;
+  padding : 0;
+  list-style : none;
+}
+.wizard > .steps > ul > li {
+  display : table-cell;
+  width : auto;
+  vertical-align : top;
+  text-align : center;
+  position : relative;
+}
+.wizard > .steps > ul > li a {
+  position : relative;
+  padding-top : 52px;
+  margin-top : 20px;
+  margin-bottom : 20px;
+  display : block;
+}
+.wizard > .steps > ul > li:before {
+  content : '';
+  display : block;
+  position : absolute;
+  z-index : 9;
+  left : 0;
+}
+.wizard > .steps > ul > li:after {
+  content : '';
+  display : block;
+  position : absolute;
+  z-index : 9;
+  right : 0;
+}
+.wizard > .steps > ul > li:last-child:after {
+  content : none;
+}
+.wizard > .steps > ul > li.current > a {
+  color : #7367F0;
+  cursor : default;
+}
+.wizard > .steps > ul > li.current .step {
+  border-color : #7367F0;
+  background-color : #7367F0;
+  color : #FFFFFF;
+}
+.wizard > .steps > ul > li.disabled a {
+  color : #636363;
+  cursor : default;
+}
+.wizard > .steps > ul > li.disabled a:hover {
+  color : #636363;
+  cursor : default;
+}
+.wizard > .steps > ul > li.disabled a:focus {
+  color : #636363;
+  cursor : default;
+}
+.wizard > .steps > ul > li.disabled .step {
+  color : #B8C2CC;
+}
+.wizard > .steps > ul > li.done a {
+  color : #636363;
+}
+.wizard > .steps > ul > li.done a:hover {
+  color : #636363;
+}
+.wizard > .steps > ul > li.done a:focus {
+  color : #636363;
+}
+.wizard > .steps > ul > li.done .step {
+  background-color : #FFFFFF;
+  border-color : #7367F0;
+  color : #B8C2CC;
+}
+.wizard > .steps > ul > li.done:last-child .step {
+  background-color : #7367F0;
+  border-color : #7367F0;
+  color : #FFFFFF;
+}
+.wizard > .steps > ul > li.error > a {
+  color : #EA5455;
+}
+.wizard > .steps > ul > li.error .step {
+  border-color : #EA5455;
+  color : #FFFFFF;
+  background-color : #EA5455;
+}
+.wizard > .steps .step {
+  background-color : #FFFFFF;
+  display : inline-block;
+  position : absolute;
+  top : 0;
+  left : 50%;
+  margin-left : -24px;
+  z-index : 10;
+  text-align : center;
+}
+.wizard > .steps .step i {
+  position : relative;
+  top : 2px;
+}
+.wizard > .content {
+  position : relative;
+  width : auto;
+  padding : 0;
+  margin : 0;
+}
+.wizard > .content > .title {
+  position : absolute;
+  left : -99999px;
+}
+.wizard > .content > .body {
+  padding : 0 0;
+}
+.wizard > .content > iframe {
+  border : 0 none;
+  width : 100%;
+  height : 100%;
+}
+.wizard > .actions {
+  position : relative;
+  display : block;
+  text-align : right;
+  padding : 20px;
+  padding-top : 0;
+  margin-top: 60px;
+}
+.wizard > .actions > ul {
+  list-style : none;
+  padding : 0;
+  margin : 0;
+}
+.wizard > .actions > ul:after {
+  content : '';
+  display : table;
+  clear : both;
+}
+/* .wizard > .actions > ul > li {
+  float : left;
+}
+.wizard > .actions > ul > li + li {
+  margin-left : 10px;
+  float : right;
+} */
+
+.wizard > .actions > ul > li{
+  display: inline-block;
+  float : left;
+}
+.wizard > .actions > ul > li:first-child{
+  margin-right:20px;
+}
+.wizard > .actions > ul > li > a {
+  background : #ff5657;
+  color : #FFFFFF;
+  display : block;
+  padding : 10px 20px;
+  border-radius :0rem;
+  border : 1px solid transparent;
+  font-size:24px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.wizard > .actions > ul > li > a:hover {
+  box-shadow : 0 0 0 100px rgba(0, 0, 0, 0.05) inset;
+}
+.wizard > .actions > ul > li > a:focus {
+  box-shadow : 0 0 0 100px rgba(0, 0, 0, 0.05) inset;
+}
+.wizard > .actions > ul > li > a:active {
+  box-shadow : 0 0 0 100px rgba(0, 0, 0, 0.1) inset;
+}
+.wizard > .actions > ul > li > a[href='#previous'] {
+  font-size:24px;
+  color : #fff;
+  border-radius : 0rem;
+}
+.wizard > .actions > ul > li > a[href='#previous']:hover {
+  box-shadow : 0 0 0 100px rgba(0, 0, 0, 0.02) inset;
+}
+.wizard > .actions > ul > li > a[href='#previous']:focus {
+  box-shadow : 0 0 0 100px rgba(0, 0, 0, 0.02) inset;
+}
+.wizard > .actions > ul > li > a[href='#previous']:active {
+  box-shadow : 0 0 0 100px rgba(0, 0, 0, 0.04) inset;
+}
+.wizard > .actions > ul > li.disabled > a {
+  background-color : transparent;
+  font-weight: normal;
+  color : #888888;
+}
+.wizard > .actions > ul > li.disabled > a:hover {
+  color : #888888;
+}
+.wizard > .actions > ul > li.disabled > a:focus {
+  color : #888888;
+}
+.wizard > .actions > ul > li.disabled > a[href='#previous'] {
+  box-shadow : none;
+}
+.wizard > .actions > ul > li.disabled > a[href='#previous']:hover {
+  box-shadow : none;
+}
+.wizard > .actions > ul > li.disabled > a[href='#previous']:focus {
+  box-shadow : none;
+}
+.wizard.wizard-circle > .steps > ul > li:before, .wizard.wizard-circle > .steps > ul > li:after {
+  top : 43px;
+  width : 50%;
+  height : 3px;
+  background-color : #7367F0;
+}
+.wizard.wizard-circle > .steps > ul > li.current:after {
+  background-color : transparent;
+}
+.wizard.wizard-circle > .steps > ul > li.current ~ li:before {
+  background-color : transparent;
+}
+.wizard.wizard-circle > .steps > ul > li.current ~ li:after {
+  background-color : transparent;
+}
+.wizard.wizard-circle > .steps .step {
+  width : 50px;
+  height : 50px;
+  line-height : 3rem;
+  border : 3px solid #B8C2CC;
+  font-size : 1.5rem;
+  font-weight : 500;
+  border-radius : 50%;
+}
+
+@media (max-width: 768px) {
+  .wizard > .steps > ul {
+    margin-bottom : 20px;
+  }
+  .wizard > .steps > ul > li {
+    display : block;
+    float : left;
+    width : 33%;
+  }
+  .wizard > .steps > ul > li > a {
+    margin-bottom : 0;
+  }
+  .wizard > .steps > ul > li:last-child:after {
+    content : '';
+    background-color : #7367F0;
+  }
+}
+
+@media (max-width: 480px) {
+  .wizard > .steps > ul > li.current:after {
+    background-color : #7367F0;
+  }
+}

@@ -1,0 +1,590 @@
+@media(min-width:992px){
+    .form-group{
+        margin-bottom:50px;
+    }
+}
+
+
+@media(max-width:1280px){
+    .main-nav > ul > li{
+        padding: 8px 10px;
+    }
+}
+
+@media(max-width:1180px){
+    #header{
+        padding:15px 0px;
+    }
+    #header .logo img{
+        max-width:160px;
+    }
+    .main-nav > ul > li{
+        padding: 6px 8px;
+    }
+    .package-banner-box .why-us-box h4{
+        height:50px;
+    }
+    .package-banner-box .why-us-box p{
+        height: 150px;
+    }
+    .storage-content{
+        padding:35px 25px;
+    }
+}
+
+@media(max-width:992px){
+    .contact-info{
+        display: none !important;
+    }
+    #header{
+        height:75px;
+    }
+    #header.header-scrolled{
+        height:70px;
+    }
+    .header-divider::before{
+        opacity:0;
+    }
+    .why-us-box{
+        margin-bottom:30px;
+    }
+    .service-header h2{
+        margin-bottom:0;
+    }
+    .services-box:before{
+        top:auto;
+        bottom:0;
+        width:100%;
+        height:80%;
+    }
+    .testimonial-img{
+        margin-bottom:90px;
+    }
+    .left-footer-box ul li{
+        padding-right:15px;
+    }
+    .service-map{
+        margin-bottom:30px;
+    }
+    .payment-option-content {
+        padding: 65px 0px 0px;
+    }
+    .services-content {
+        padding: 65px 0px 0px;
+    }
+    .moving-service-details{
+        padding-left:0px;
+    }
+    .package-banner-box .why-us-box h4{
+        height: auto;
+    }
+    .package-banner-box .why-us-box p{
+        height: auto;
+    }
+    .package-banner-box .why-us-box{
+        margin-bottom:30px;
+    }
+    .pack-box{
+        margin-bottom:30px;
+    }
+    .storage-content {
+        padding: 35px 70px;
+    }
+    .why-left-content{
+        padding-left: 90px;
+    }
+    .why-left-content::before{
+        left:0;
+        top:34%;
+    }
+    .consumer-img{
+        margin-bottom:30px;
+    }
+    .consumer-content-area{
+        padding-left:0px;
+    }
+    .service-form{
+        margin-bottom:30px;
+    }
+    .service-form .tabs{
+        margin-bottom:20px;
+    }
+}
+@media(max-width:767px){
+    .banner-area{
+        height:750px;
+    }
+    .banner-content h1{
+        font-size:40px;
+    }
+    .get-started{
+        padding:20px 30px;
+    }
+    .why-us-content{
+        padding: 60px 70px 60px;
+    }
+    .why-us-header h2{
+        font-size:30px;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+    .service-header h2{
+        font-size:30px;
+        line-height: 40px;
+    }
+    .service-content p{
+        line-height:20px;
+    }
+    .our-services{
+        padding:80px 0px;
+    }
+    .services-content {
+        padding: 40px 0px 0px;
+    }
+    .payment-option-content {
+        padding: 40px 0px 0px;
+    }
+    .services-content h3{
+        font-size:28px;
+    }
+    .services-content p{
+        line-height: 20px;
+    }
+    .testimonials{
+        padding:80px 0px;
+    }
+    .testimonial-carousel-area{
+        padding: 70px 50px 10px 50px;
+    }
+    .gallery-thumbs{
+        width:80%;
+    }
+    .footer-top{
+        padding:80px 0px 45px;
+    }
+    .footer-bottom {
+        padding: 40px 0px;
+    }
+    .left-footer-box{
+        margin-bottom:20px;
+    }
+    .services {
+        padding: 80px 0px 65px;
+    }
+    .testimonial-img-content h4{
+        font-size:30px;
+    }
+    .covid-content{
+        padding:0px;
+    }
+    .moving-service-content{
+        padding:140px 0px 80px;
+    }
+    .covid-awareness{
+        padding:80px 0px 60px;
+    }
+    .covid-img::before{
+        top:20px;
+        left:20px;
+    }
+    .moving-service-details .nav-pills .nav-link{
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    .moving-service-details .nav-pills{
+        margin-bottom: 25px;
+    }
+    .moving-tab-content ul li{
+        padding:10px 20px;
+        margin-bottom:20px;
+    }
+    .covid-content h2{
+        font-size:30px;
+    }
+    .package-banner-area{
+        height:500px;
+    }
+    .package-banner-content{
+        margin-top:0px;
+        padding:30px 0px;
+    }
+    .package-banner-box{
+        padding:0px 30px;
+    }
+    .arrow-section {
+        padding: 60px 0px;
+    }
+    .package-solution-content{
+        padding:40px 30px 40px 30px;
+    }
+    .package-solution-content h2{
+        font-size:30px;
+        line-height: 40px;
+    }
+    .package-banner-content h2{
+        font-size:30px
+    }
+    .storage-area {
+        padding: 140px 0px 80px;
+    }
+    .storage-content {
+        padding: 35px 40px;
+    }
+    .storage-return {
+        padding: 80px 0px;
+    }
+    .storage-return p{
+        width:80%;
+    }
+    .storage-return h2{
+        font-size:30px;
+    }
+    .why-left-content::before{
+        width:45px;
+        height:3px;
+    }
+    .why-left-content {
+        padding-left: 70px;
+    }
+    .why-left-content::before{
+        top:26%;
+    }
+    .our-team-content{
+        padding:15px 0px;
+    }
+    .section-header h3{
+        font-size:30px;
+        line-height: 40px;
+    }
+    .consumer-img-content h4{
+        font-size:30px;
+        line-height: 40px;
+    }
+    .consumer-area {
+        padding: 80px 0px;
+    }
+    .why-top{
+        padding-top:140px;
+    }
+    .choose-area{
+        padding:150px 0px 80px
+    }
+    .choose-box p{
+        height:auto;
+    }
+    .box-one{
+        margin-bottom:20px;
+    }
+    .form-area{
+        padding:150px 0px 80px
+    }
+    .wizard > .actions > ul > li > a{
+        font-size:18px;
+    }
+    .wizard > .actions > ul > li > a[href='#previous']{
+        font-size:18px;
+    }
+    .submit-btn{
+        font-size:18px;
+    }
+
+    .cancel-btn{
+        font-size:18px;
+    }
+}
+@media(max-width:480px){
+    .banner-content h1{
+        font-size:30px;
+    }
+    .banner-area {
+        height: 600px;
+    }
+    .get-started {
+        padding: 10px 25px;
+    }
+    .why-us-content {
+        padding: 40px 20px 40px;
+    }
+    .why-us-header h2{
+        font-size:25px;
+    }
+    .why-us-box{
+        padding:25px 15px 55px;
+    }
+    .services {
+        padding: 40px 0px;
+    }
+    .service-header h2{
+        font-size:25px;
+        line-height: 30px;
+    }
+    .service-header h2{
+        padding-left:40px;
+    }
+    .service-header h2:before{
+        top:15px;
+        width: 25px;
+        height: 4px;
+    }
+    .service-banner{
+        height:230px;
+        margin-bottom:40px;
+    }
+    .get-btn{
+        font-size: 14px;
+        padding: 10px 25px;
+    }
+    .our-services {
+        padding: 40px 0px;
+    }
+    .services-box{
+        padding:0px;
+    }
+    .services-content {
+        padding: 30px 0px;
+    }
+    .services-content h3{
+        font-size:25px;
+        margin-bottom:20px;
+    }
+    .learn-mr-btn{
+        padding:10px 25px;
+    }
+    .learn-mr-btn i{
+        top:4px;
+        right:15px;
+    }
+    .testimonials {
+        padding: 40px 0px;
+    }
+    .testimonial-img-content h4{
+        font-size:25px;
+    }
+    .quote-area{
+        top: -35px;
+        right: 20px;
+        width: 70px;
+        height: 70px;
+    }
+    .quote-area i{
+        font-size:25px;
+    }
+    .testimonial-carousel-area {
+        padding: 60px 20px 10px 20px;
+    }
+    .gallery-thumbs{
+        width:100%;
+        padding-bottom: 0px;
+    }
+    .swiper-slide.swiper-slide-active .testimonial-thumb img{
+        width:55px;
+        height:55px;
+    }
+    .swiper-slide .testimonial-thumb img{
+        width:35px;
+        height:35px;
+    }
+    .swiper-slide .testimonial-thumb{
+        width:35px;
+        height:35px;
+    }
+    .swiper-slide.swiper-slide-active .slider-content{
+        transform: translatey(-20px);
+    }
+    .swiper-slide .customer-name{
+        margin-top:0px;
+    }
+    .footer-top {
+        padding: 40px 0px 25px;
+    }
+    .footer-bottom {
+        padding: 30px 0px;
+    }
+    .left-footer-box ul li{
+        padding-right:5px;
+    }
+    .moving-service-content {
+        padding: 115px 0px 40px;
+    }
+    .moving-service-details .nav-pills .nav-link{
+        font-size:14px;
+        margin-right:10px;
+    }
+    .moving-list-icon{
+        width:40px;
+        height:40px;
+    }
+    .moving-list-content {
+        margin-left: 15px;
+    }
+    .moving-list-content h6{
+        font-size:16px;
+        font-weight: 600;
+    }
+    .covid-awareness {
+        padding: 40px 0px 30px;
+    }
+    .payment-box{
+        padding:15px 10px;
+        margin-bottom:20px;
+    }
+    .payment-box-content h5{
+        font-size:14px;
+        letter-spacing: 1px;
+    }
+    .moving-list-icon img {
+        width: 23px;
+    }
+    .covid-content h2{
+        font-size:25px;
+        margin-bottom:10px;
+    }
+    .covid-content p{
+        line-height: 20px;
+    }
+    .list-no{
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+    }
+    .furniture-content {
+        margin-left: 20px;
+    }
+    .furniture-content h4{
+        font-size:16px;
+    }
+    .package-banner-box {
+        padding: 0px;
+    }
+    .package-banner-content h2{
+        font-size:25px;
+    }
+    .package-banner-box .why-us-box{
+        padding:20px;
+    }
+    .arrow-section {
+        padding: 30px 0px;
+    }
+    .package-solution-content h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .pack-box{
+        padding:40px 15px;
+    }
+    .pack-box p{
+        min-height: auto;
+    }
+    .pack-bottom-boxs{
+        margin-bottom:30px;
+    }
+    .big-text {
+        padding: 30px 0px 40px;
+    }
+    .storage-content {
+        padding: 35px 40px;
+    }
+    .storage-content {
+        padding: 20px;
+    }
+    .storage-area {
+        padding: 120px 0px 40px;
+    }
+    .storage-return {
+        padding: 40px 0px;
+    }
+    .storage-return h2{
+        font-size:25px;
+    }
+    .storage-return p{
+        line-height: 20px;
+        width:100%;
+    }
+    .section-header h3{
+        font-size:25px;
+        line-height: 30px;
+    }
+    .consumer-img-content h4{
+        font-size:25px;
+        line-height: 30px;
+    }
+    .consumer-area {
+        padding: 40px 0px;
+    }
+    .consumer-content {
+        margin-left: 15px;
+    }
+    .why-top {
+        padding-top: 120px;
+    }
+    .choose-area{
+        padding:120px 0px 40px
+    }
+    .choose-box{
+        padding:10px;
+    }
+    .form-area{
+        padding:120px 0px 40px
+    }
+    .service-form label{
+        font-weight: 600;
+        font-size:14px;
+        margin-bottom:10px;
+    }
+    .inventory-list-area h3{
+        font-size:25px;
+    }
+    .book-form-tab{
+        margin-bottom:40px;
+    }
+    .book-form-tab .nav-item:first-child {
+        margin-right: 30px;
+    }
+    .wizard > .actions > ul > li > a{
+        font-size:14px;
+    }
+    .wizard > .actions > ul > li > a[href='#previous']{
+        font-size:14px;
+    }
+    .submit-btn{
+        font-size:14px;
+    }
+
+    .cancel-btn{
+        font-size:14px;
+    }
+
+    .thank-content {
+        padding: 20px;
+    }
+    .thank-content img{
+        margin-bottom:20px;
+    }
+    .side-img{
+        right:14%;
+    }
+    .thank-content img{
+        max-width:210px;
+    }
+    .side-img img{
+        max-width:130px;
+    }
+    .thank-content p{
+        font-size:14px;
+        line-height: 20px;
+    }
+    .home-type ul li{
+        font-size:14px;
+    }
+    .type-home ul li:first-child {
+        padding-bottom: 8px;
+    }
+    .list-box input[type="checkbox"], .list-box input[type="radio"] {
+        margin-right: 5px;
+    }
+    .book-form-tab .nav-link span{
+        width:40px;
+        height:40px;
+        font-size:20px;
+    }
+}
